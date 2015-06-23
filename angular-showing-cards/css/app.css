@@ -1,0 +1,51 @@
+body {
+  background-color: #fafafa;
+  font-family: "Helvetic Neue", Helvetica, Arial;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: "Helvetic Neue", Helvetica, Arial;
+}
+a { cursor: pointer; }
+a:hover{
+  text-decoration: none;
+}
+.panel{
+  margin-top: 10px;
+}
+.page-content{
+  border-top: 1px solid #eeeeee;
+  min-height: 100%;
+  overflow: hidden;
+  padding-top: 15px;
+}
+.page-content .container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.panel-default > .panel-heading {
+  background-color: #ffffff;
+  border-color: #eeeeee;
+}
+.card {
+  max-width: 600px;
+}
+.card .panel-body {
+  padding: 0 15px;
+}
+.card .col-md-12 {
+  padding: 10px 25px;
+}
+.card .description {
+  padding: 15px 0 4.5px;
+  border-bottom: 1px solid #eeeeee;
+}
+.card p.card-description{
+  word-wrap: break-word;
+}
+.card .thumb {
+  padding: 15px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.card .card-footer {
+  padding: 10px 0;
+}
