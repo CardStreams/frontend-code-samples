@@ -8,6 +8,13 @@
       'ngSanitize'
   ]);
 
+  // Your appId and appKey from CardStreams
+  app.constant('CONFIG', {
+    app_id: "YOUR_APP_ID",
+    app_key: "YOUR_APP_KEY",
+    streamId: "YOUR_STREAM_ID"
+  });
+
   // Use the angular sanitize filter for the description content. This allows a mixture of "safe" and "unsafe" content.
   // For more information, see: https://docs.angularjs.org/api/ngSanitize/service/$sanitize
   app.filter("safe", function($sce)
